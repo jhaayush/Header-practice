@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #eee;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.tm-header{
+	background-color: #fff;
+}
+
+.tm-logo{
+	float: left;
+}
+
+.tm-logo img{
+	height: 60px;
+}
+
+.tm-navbar{
+	float: right;
+}
+
+.tm-navbar ul li{
+	display: inline-block;
+	line-height: 60px;
+}
+
+.tm-navbar ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.tm-navbar ul li a:hover{
+	color: lightgreen;
+}
+
+section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
